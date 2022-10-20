@@ -1,3 +1,9 @@
+"""
+Take as input alias names of organizations (here read from the fields "n" and "l" of from code.gouv's orgas.jspj)
+and try fo find a match with DockerHub API.
+DockerHub documentation: https://docs.docker.com/docker-hub/api/latest/
+"""
+
 import requests as r
 import json
 
